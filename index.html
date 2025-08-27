@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deshi-Deals | Home</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <!-- Daisy CND -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="shadow py-3">
+      <nav>
+        <div class="logo flex justify-center items-center gap-1">
+          <img src="./assets/logo.png" alt="" class="w-12" />
+          <div>
+            <h1 class="text-pink-500 text-xl">
+              Deshi <span class="font-bold">Deals</span>
+            </h1>
+            <p class="text-sm text-gray-400">Cheap Price , Best Quality</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <section
+          id="products-container"
+          class="w-10/12 mx-auto py-10 grid grid-cols-12 gap-8"
+        >
+          <section id="product-box" class="col-span-9">
+            <div class="kitchen">
+              <h1 class="text-2xl font-bold">Kitchenware</h1>
+
+              <div class="kitchen-items grid grid-cols-3 gap-5">
+                <!-- product-card-1 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/kitchen-1.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Card Title</h2>
+                    <p>
+                      A card component has a figure, a body part, and inside
+                      body there are title and actions parts
+                    </p>
+                    <div class="card-actions">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="px-10 pt-10">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                      alt="Shoes"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Card Title</h2>
+                    <p>
+                      A card component has a figure, a body part, and inside
+                      body there are title and actions parts
+                    </p>
+                    <div class="card-actions">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="px-10 pt-10">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                      alt="Shoes"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Card Title</h2>
+                    <p>
+                      A card component has a figure, a body part, and inside
+                      body there are title and actions parts
+                    </p>
+                    <div class="card-actions">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <aside id="cart-box" class="bg-green-100 col-span-3">
+            <h1>Cart</h1>
+          </aside>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
