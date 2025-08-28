@@ -11,6 +11,15 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- font awesome cnd -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
@@ -28,7 +37,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="bg-gray-100">
       <section id="banner">
         <section
           id="products-container"
@@ -36,9 +45,9 @@
         >
           <section id="product-box" class="col-span-9">
             <div class="kitchen">
-              <h1 class="text-2xl font-bold">Kitchenware</h1>
+              <h1 class="text-2xl font-bold mb-5">Kitchenware</h1>
 
-              <div class="kitchen-items grid grid-cols-3 gap-5">
+              <div class="kitchen-items grid grid-cols-3 gap-5 mb-5">
                 <!-- product-card-1 -->
                 <div class="card bg-base-100 shadow-sm">
                   <figure class="m-5 bg-gray-200">
@@ -49,62 +58,278 @@
                     />
                   </figure>
                   <div class="card-body items-center text-center">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>
-                      A card component has a figure, a body part, and inside
-                      body there are title and actions parts
-                    </p>
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
                     <div class="card-actions">
-                      <button class="btn btn-primary">Buy Now</button>
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
                     </div>
                   </div>
                 </div>
-
+                <!-- product-card-2 -->
                 <div class="card bg-base-100 shadow-sm">
-                  <figure class="px-10 pt-10">
+                  <figure class="m-5 bg-gray-200">
                     <img
-                      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                      src="./assets/kitchen-2.png"
                       alt="Shoes"
-                      class="rounded-xl"
+                      class="rounded-xl py-5"
                     />
                   </figure>
                   <div class="card-body items-center text-center">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>
-                      A card component has a figure, a body part, and inside
-                      body there are title and actions parts
-                    </p>
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
                     <div class="card-actions">
-                      <button class="btn btn-primary">Buy Now</button>
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
                     </div>
                   </div>
                 </div>
-
+                <!-- product-card-3 -->
                 <div class="card bg-base-100 shadow-sm">
-                  <figure class="px-10 pt-10">
+                  <figure class="m-5 bg-gray-200">
                     <img
-                      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                      src="./assets/kitchen-3.png"
                       alt="Shoes"
-                      class="rounded-xl"
+                      class="rounded-xl py-5"
                     />
                   </figure>
                   <div class="card-body items-center text-center">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>
-                      A card component has a figure, a body part, and inside
-                      body there are title and actions parts
-                    </p>
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
                     <div class="card-actions">
-                      <button class="btn btn-primary">Buy Now</button>
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- End of kitchen-items -->
+
+              <div class="Spotswear-items grid grid-cols-3 gap-5 mb-5">
+                <!-- product-card-1 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/sports-1.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- product-card-2 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/sports-2.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- product-card-3 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/sports-3.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Spotswear-items -->
+
+              <div class="Furniture-items grid grid-cols-3 gap-5">
+                <!-- product-card-1 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/furniture-1.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- product-card-2 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/furniture-2.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- product-card-3 -->
+                <div class="card bg-base-100 shadow-sm">
+                  <figure class="m-5 bg-gray-200">
+                    <img
+                      src="./assets/furniture-3.png"
+                      alt="Shoes"
+                      class="rounded-xl py-5"
+                    />
+                  </figure>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Cook strick</h2>
+                    <div class="text-yellow-400">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500"><span>150</span>TK</p>
+
+                    <div class="card-actions">
+                      <button class="btn bg-pink-500 text-white">
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Furniture-items -->
             </div>
           </section>
 
-          <aside id="cart-box" class="bg-green-100 col-span-3">
-            <h1>Cart</h1>
+          <aside id="cart-box" class="col-span-3">
+            <div class="bg-white p-5 rounded">
+              <h2 class="font-bold mb-5">Have a cupon</h2>
+              <div class="join">
+                <input class="input join-item" placeholder="Email" />
+                <button
+                  class="btn join-item rounded-r-xl bg-pink-400 text-white"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+
+            <div class="cart-box bg-white mt-10 p-5">
+              <h2 class="font-bold">Cart</h2>
+              <div class="" id="cart-container"></div>
+              <div>
+                <h2>Total Price: <span id="total-price">0</span>TK</h2>
+                <h2>Total Quantity: <span id="total-price">0</span>Items</h2>
+                <button
+                  class="btn join-item w-full bg-pink-400 mt-5 text-white"
+                >
+                  Make Purchase
+                </button>
+              </div>
+            </div>
           </aside>
         </section>
       </section>
