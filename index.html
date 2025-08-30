@@ -58,7 +58,7 @@
                     />
                   </figure>
                   <div class="card-body items-center text-center">
-                    <h2 class="card-title">Cook strick</h2>
+                    <h2 id="card-title-1" class="card-title">Cook strick</h2>
                     <div class="text-yellow-400">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -66,10 +66,10 @@
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="text-gray-500"><span>150</span>TK</p>
+                    <p class="text-gray-500"><span id="card-price-1">150</span>TK</p>
                   </div>
                   <div class="card-actions m-5">
-                    <button id="cart-btn-steel" class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -95,7 +95,7 @@
                     <p class="text-gray-500"><span>150</span>TK</p>
                   </div>
                   <div class="card-actions m-5">
-                    <button class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -121,7 +121,7 @@
                     <p class="text-gray-500"><span>150</span>TK</p>
                   </div>
                   <div class="card-actions m-5">
-                    <button class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -151,7 +151,7 @@
                     <p class="text-gray-500"><span>150</span>TK</p>
                   </div>
                    <div class="card-actions m-5">
-                    <button onclick="alert('stiler hadi')" class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -177,7 +177,7 @@
                     <p class="text-gray-500"><span>150</span>TK</p>
                   </div>
                    <div class="card-actions m-5">
-                    <button class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -204,7 +204,7 @@
 
                   </div>
                    <div class="card-actions m-5">
-                    <button class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -234,7 +234,7 @@
                     <p class="text-gray-500"><span>150</span>TK</p>
                   </div>
                    <div class="card-actions m-5">
-                    <button class="btn bg-pink-500 text-white btn-block">
+                    <button class="btn bg-pink-500 text-white btn-block cart-btn">
                       Add to Cart
                     </button>
                   </div>
@@ -312,7 +312,9 @@
 
             <div class="cart-box bg-white mt-10 p-5">
               <h2 class="font-bold">Cart</h2>
-              <div class="" id="cart-container"></div>
+              <div class="space-y-6" id="cart-container">
+                
+              </div>
               <div>
                 <h2>Total Price: <span id="total-price">0</span>TK</h2>
                 <h2>Total Quantity: <span id="total-price">0</span>Items</h2>
